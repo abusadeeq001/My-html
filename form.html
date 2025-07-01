@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ATM HOMES AND APPARTMENT INQUIRY FORM</title>
+    </head>
+    <body>
+        <h1>ATM HOMES AND APPARTMENT</h1>
+        <h2>Property inquiry form</h2>
+        <form action="submit form.php" method="post">
+
+             <label for="mr">TITLE:</label>
+            
+               <label for="mr">MR.:</label>
+            <input type="radio" id="MR" value="MR." name="TITLE">
+              <label for="MS.">MS.:</label>
+            <input type="radio" id="MS" value="MS" name="TITLE"><br><br>
+
+
+            <label for="full name">FULL NAME:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+
+            <label for="email">EMAIL:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">PHONE:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="location">PREFERRED LOCATION:</label><br>
+            <input type="text" id="lacation" name="lacation"><br>
+
+             <label for="Property Type">TYPE OF PROPERTY:</label><br>
+            <select>
+                <option value="apartment">Apartment</option>
+                <option value="bungalow">Bungalow</option>
+                <option value="duplex">duplex</option>
+                <option value="studio">studio</option>
+                <option value="land">land</option>
+            </select><br><br>
+
+             <label for="bedroom">NUMBER OF BEDROOM:</label><br>
+            <input type="number" id="bedroom" name="bedroom"><br>
+
+             <label for="budget">BUDGET:</label><br>
+            <input type="number" id="budget" name="budget"><br>
+
+             <label for="date">ISSUE DATE:</label><br>
+            <input type="date" id="date"><br>
+
+             <label for="message">ADDITIONAL INFORMATION:</label><br>
+            <textarea id="message" name="message" row="4" cols="30"></textarea><br>
+
+            <input type="submit" value="submit">
+
+
+        </form>
+    </body>
+</html>
